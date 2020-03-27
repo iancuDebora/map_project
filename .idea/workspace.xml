@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="599f6307-b6c8-40af-8376-a1fe41707c9d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JavaFXApplication" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UE6jdpgOklVwwkP5WCB3CDtbWD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="repository" />
+      <recent name="validators" />
+      <recent name="domains" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Deb\Desktop\sem3\map\lab_map_GUI\src\main\resources\repositories" />
+      <recent name="C:\Users\Deb\Desktop\sem3\map\lab_map_GUI\src\main\resources\" />
+      <recent name="C:\Users\Deb\Desktop\sem3\map\lab_map_GUI\src\main\resources\views\repositories" />
+      <recent name="C:\Users\Deb\Desktop\sem3\map\lab_map_GUI\src" />
+      <recent name="C:\Users\Deb\Desktop\sem3\map\lab_map_GUI\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab_map_GUI.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InMemoryRepositoryStudentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;repository.InMemoryRepositoryStudentTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StudentXMLFileRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;repository.StudentXMLFileRepositoryTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StudentXMLFileRepositoryTest.update" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;repository.StudentXMLFileRepositoryTest.update&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'lab_map_GUI.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'lab_map_GUI.test'" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.StudentXMLFileRepositoryTest" />
+        <item itemvalue="Gradle.InMemoryRepositoryStudentTest" />
+        <item itemvalue="Gradle.StudentXMLFileRepositoryTest.update" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="599f6307-b6c8-40af-8376-a1fe41707c9d" name="Default Changelist" comment="" />
+      <created>1574909543875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574909543875</updated>
+      <workItem from="1574909546079" duration="2923000" />
+      <workItem from="1574971416752" duration="20431000" />
+      <workItem from="1575006289094" duration="3432000" />
+      <workItem from="1575026045911" duration="431000" />
+      <workItem from="1575026649291" duration="21046000" />
+      <workItem from="1575447886212" duration="8359000" />
+      <workItem from="1576322845539" duration="12273000" />
+      <workItem from="1576377334709" duration="2128000" />
+      <workItem from="1576379501112" duration="12312000" />
+      <workItem from="1576394323777" duration="67520000" />
+      <workItem from="1576616797229" duration="21229000" />
+      <workItem from="1576647869772" duration="1451000" />
+      <workItem from="1576656382298" duration="1673000" />
+      <workItem from="1576658299448" duration="11180000" />
+      <workItem from="1576838802832" duration="160000" />
+      <workItem from="1577698703905" duration="1208000" />
+      <workItem from="1579857503314" duration="12861000" />
+      <workItem from="1580056557652" duration="11505000" />
+      <workItem from="1582586759014" duration="189000" />
+      <workItem from="1583190385403" duration="6358000" />
+      <workItem from="1583695879193" duration="15815000" />
+      <workItem from="1583773205718" duration="107000" />
+      <workItem from="1583775757902" duration="594000" />
+      <workItem from="1583804381922" duration="321000" />
+      <workItem from="1584200039803" duration="17883000" />
+      <workItem from="1584283373423" duration="29318000" />
+      <workItem from="1584801884764" duration="8318000" />
+      <workItem from="1584955491279" duration="62000" />
+      <workItem from="1584996624443" duration="2916000" />
+      <workItem from="1585214962606" duration="21964000" />
+      <workItem from="1585281046267" duration="14372000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1584299704933">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584299704933" />
+    <state x="522" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584337924117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="522" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1584337924117" />
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1585228951766">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585228951766" />
+    <state width="1493" height="67" key="GridCell.Tab.0.bottom" timestamp="1585335589220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="67" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585335589220" />
+    <state width="1493" height="67" key="GridCell.Tab.0.center" timestamp="1585335589220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="67" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585335589220" />
+    <state width="1493" height="67" key="GridCell.Tab.0.left" timestamp="1585335589220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="67" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585335589220" />
+    <state width="1493" height="67" key="GridCell.Tab.0.right" timestamp="1585335589220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="67" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585335589220" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1584376525386">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584376525386" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1584376525385">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584376525385" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1584376525384">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584376525384" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1584376525385">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584376525385" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1585336402392">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585336402392" />
+    <state x="533" y="132" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585321234686">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="533" y="132" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1585321234686" />
+  </component>
+</project>

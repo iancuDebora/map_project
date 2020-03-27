@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><entity><nota ids="3" idt="1"><nota>9.0</nota><data>2020-03-27</data><profesor>Maria</profesor><feedback>Feedback: Nota a fost diminuata cu 1.0 puncte din cauza intarzierilor.
+</feedback></nota><nota ids="2" idt="1"><nota>7.0</nota><data>2020-03-15</data><profesor>Andrei</profesor><feedback>Feedback: Nota a fost diminuata cu 2.0 puncte din cauza intarzierilor.
+</feedback></nota><nota ids="3" idt="2"><nota>8.0</nota><data>2020-03-26</data><profesor>Andrei</profesor><feedback>Feedback: Nota a fost diminuata cu 2.0 puncte din cauza intarzierilor.
+</feedback></nota><nota ids="2" idt="2"><nota>10.0</nota><data>2020-03-12</data><profesor>Andrei</profesor><feedback>Feedback: Tema a fost predata la timp.
+</feedback></nota><nota ids="1" idt="2"><nota>8.0</nota><data>2020-03-26</data><profesor>Maria</profesor><feedback>Feedback: Nota a fost diminuata cu 1.0 puncte din cauza intarzierilor.
+</feedback></nota></entity>

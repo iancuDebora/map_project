@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="domains.EntityTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-27T18:35:38" hostname="DESKTOP-Q3PLP2F" time="0.002">
+  <properties/>
+  <testcase name="getId" classname="domains.EntityTest" time="0.002"/>
+  <testcase name="setId" classname="domains.EntityTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="domains.StudentTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-03-27T18:35:38" hostname="DESKTOP-Q3PLP2F" time="0.013">
+  <properties/>
+  <testcase name="setPrenume" classname="domains.StudentTest" time="0.0"/>
+  <testcase name="setCadruDidacticIndrumatorLab" classname="domains.StudentTest" time="0.001"/>
+  <testcase name="getNume" classname="domains.StudentTest" time="0.0"/>
+  <testcase name="getCadruDidacticIndrumatorLab" classname="domains.StudentTest" time="0.0"/>
+  <testcase name="getId" classname="domains.StudentTest" time="0.001"/>
+  <testcase name="setId" classname="domains.StudentTest" time="0.0"/>
+  <testcase name="getPrenume" classname="domains.StudentTest" time="0.0"/>
+  <testcase name="setEmail" classname="domains.StudentTest" time="0.0"/>
+  <testcase name="setGrupa" classname="domains.StudentTest" time="0.0"/>
+  <testcase name="getEmail" classname="domains.StudentTest" time="0.0"/>
+  <testcase name="getGrupa" classname="domains.StudentTest" time="0.0"/>
+  <testcase name="setNume" classname="domains.StudentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

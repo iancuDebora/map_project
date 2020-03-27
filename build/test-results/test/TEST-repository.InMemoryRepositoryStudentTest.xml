@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.InMemoryRepositoryStudentTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-03-27T18:35:38" hostname="DESKTOP-Q3PLP2F" time="0.006">
+  <properties/>
+  <testcase name="delete" classname="repository.InMemoryRepositoryStudentTest" time="0.0"/>
+  <testcase name="findAll" classname="repository.InMemoryRepositoryStudentTest" time="0.0"/>
+  <testcase name="findOne" classname="repository.InMemoryRepositoryStudentTest" time="0.0"/>
+  <testcase name="update" classname="repository.InMemoryRepositoryStudentTest" time="0.001"/>
+  <testcase name="save" classname="repository.InMemoryRepositoryStudentTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

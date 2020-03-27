@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="483.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerNote">
+   <children>
+      <HBox alignment="CENTER" layoutY="280.0" prefHeight="60.0" prefWidth="1000.0" AnchorPane.bottomAnchor="143.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="280.0">
+         <children>
+            <Label prefHeight="50.0" prefWidth="80.0" text="Cauta student dupa nume" wrapText="true" />
+            <TextField fx:id="textFieldNume" onKeyTyped="#onHandleStudenti2" prefHeight="34.0" prefWidth="100.0" />
+            <Button mnemonicParsing="false" onAction="#onHandleAlegeStudent" prefHeight="26.0" prefWidth="95.0" text="Alege Student" />
+            <Label prefHeight="50.0" prefWidth="40.0" text="Alege tema" wrapText="true">
+               <HBox.margin>
+                  <Insets left="80.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox fx:id="comboBoxTema" onAction="#temacomboChange" prefHeight="26.0" prefWidth="269.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutY="340.0" prefHeight="74.0" prefWidth="962.0">
+         <children>
+            <CheckBox fx:id="intarziereProf" mnemonicParsing="false" onAction="#handleCheckBox" prefWidth="100.0" text="Intarziere Profesor" wrapText="true" />
+            <Label prefHeight="34.0" prefWidth="130.0" text="Nr saptamani intarziere in predare" wrapText="true" />
+            <TextField fx:id="saptPredare" editable="false" prefHeight="26.0" prefWidth="71.0" />
+            <Label prefHeight="74.0" prefWidth="91.0" text="Alege o data din saptamana in care a predat studentul" wrapText="true">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></Label>
+            <DatePicker fx:id="datePicker" disable="true" editable="false" prefHeight="26.0" prefWidth="150.0" />
+            <CheckBox fx:id="checkBoxMotivare" mnemonicParsing="false" onAction="#handleCheckBoxMotivare" prefHeight="42.0" prefWidth="76.0" text="Motivare" wrapText="true">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></CheckBox>
+            <Label prefHeight="58.0" prefWidth="94.0" text="Saptamana in care a inceput scutirea" wrapText="true">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="inceputField" editable="false" prefHeight="26.0" prefWidth="46.0" />
+            <Label prefHeight="46.0" prefWidth="133.0" text="Saptamana in care scutirea se termina" wrapText="true">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></Label>
+            <TextField fx:id="sfarsitField" editable="false" prefHeight="26.0" prefWidth="38.0" />
+         </children>
+      </HBox>
+      <VBox layoutX="680.0" layoutY="4.0" prefHeight="164.0" prefWidth="270.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onHandleStudenti" text="Gestionare Studenti" />
+            <TextArea fx:id="raportTextArea" editable="false" prefHeight="130.0" prefWidth="270.0" wrapText="true" />
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutY="415.0" prefHeight="67.0" prefWidth="961.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Valoare Nota" wrappingWidth="48.715641021728516">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="textFieldNota" onMouseClicked="#automaticFeedback" prefHeight="26.0" prefWidth="64.0" />
+            <Label text="Profesor">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin></Label>
+            <TextField fx:id="textFieldProf" onMouseClicked="#automaticFeedback">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></TextField>
+            <TextArea fx:id="textAreaFeedback" maxHeight="100.0" minWidth="300.0" prefHeight="20.0" prefWidth="144.0">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </TextArea>
+            <Button minWidth="50.0" mnemonicParsing="false" onAction="#onHandleAdaugaNota" prefHeight="30.0" prefWidth="102.0" text="Adauga Nota">
+               <HBox.margin>
+                  <Insets left="100.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="680.0" layoutY="168.0" prefHeight="60.0" prefWidth="133.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onHandleRaport1" text="Raport1">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin></Button>
+            <Button mnemonicParsing="false" onAction="#onHandleRaport2" text="Raport2" />
+         </children>
+      </HBox>
+      <HBox layoutX="680.0" layoutY="198.0" prefHeight="50.0" prefWidth="142.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onHandleRaport3" text="Raport3">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin></Button>
+            <Button mnemonicParsing="false" onAction="#onHandleRaport4" text="Raport4" />
+         </children>
+      </HBox>
+      <VBox layoutX="842.0" layoutY="142.0" prefHeight="137.0" prefWidth="100.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#noteTabel" text="Tabel Note">
+               <VBox.margin>
+                  <Insets bottom="30.0" top="25.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="studentiTabel" mnemonicParsing="false" onAction="#studentiTabel" text="Tabel Studenti" />
+         </children>
+      </VBox>
+      <TableView fx:id="tableView" prefHeight="257.0" prefWidth="674.0" AnchorPane.bottomAnchor="226.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="326.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="tableColumnID" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="tableColumnNota" prefWidth="75.0" text="Nota" />
+            <TableColumn fx:id="tableColumnData" prefWidth="85.5999755859375" text="Data" />
+            <TableColumn fx:id="tableColumnProfesor" prefWidth="64.79998779296875" text="Profesor" />
+            <TableColumn fx:id="tableColumnFeedback" prefWidth="371.20001220703125" text="Feedback" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tableViewSt" prefHeight="257.0" prefWidth="674.0" AnchorPane.bottomAnchor="226.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="326.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="tableColumnId" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="tableColumnNume" prefWidth="108.0" text="Nume" />
+            <TableColumn fx:id="tableColumnPrenume" prefWidth="104.80006408691406" text="Prenume" />
+            <TableColumn fx:id="tableColumnGrupa" prefWidth="66.39996337890625" text="Grupa" />
+            <TableColumn fx:id="tableColumnEmail" prefWidth="121.5999755859375" text="Email" />
+            <TableColumn fx:id="tableColumnCadruDidacticIndrumatorLab" prefWidth="61.5999755859375" text="Cadru didactic Indrumator Lab" />
+            <TableColumn fx:id="tableColumnMedie" prefWidth="134.39990234375" text="Medie" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

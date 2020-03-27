@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="domains.TemaTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-03-27T18:35:38" hostname="DESKTOP-Q3PLP2F" time="0.009">
+  <properties/>
+  <testcase name="getStartWeek" classname="domains.TemaTest" time="0.0"/>
+  <testcase name="setDescriere" classname="domains.TemaTest" time="0.0"/>
+  <testcase name="setStartWeek" classname="domains.TemaTest" time="0.0"/>
+  <testcase name="getDeadlineWeek" classname="domains.TemaTest" time="0.001"/>
+  <testcase name="getId" classname="domains.TemaTest" time="0.0"/>
+  <testcase name="setId" classname="domains.TemaTest" time="0.0"/>
+  <testcase name="setDeadlineWeek" classname="domains.TemaTest" time="0.001"/>
+  <testcase name="testEquals" classname="domains.TemaTest" time="0.0"/>
+  <testcase name="getDescriere" classname="domains.TemaTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
